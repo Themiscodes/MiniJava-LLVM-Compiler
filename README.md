@@ -52,7 +52,9 @@ For the Virtual Table, where the method order is important since it is used to g
 
 ## Main
 
-The Main class in [Main.java](Main.java) runs the semantic analysis, initiating the parser that was produced by JavaCC and executing the visitors I described above. When the semantic check has finished, for every class of the program the names and the offsets of every field and method this class contains are printed. Finally, the Translator visitor compiles the program into LLVM which is emitted into the .ll file, that is created in the same folder as the original .java file.
+- The Main class in [Main.java](Main.java) runs the semantic analysis, initiating the parser that was produced by JavaCC and executing the visitors I described above. 
+- When the semantic check has finished, for every class of the program the names and the offsets of every field and method this class contains are printed. 
+- Finally, the Translator visitor compiles the program into LLVM IR, which is then emitted into the .ll file, that is created in the same folder as the original .java file.
 
 ## Compilation and Execution
 
