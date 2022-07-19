@@ -2,7 +2,7 @@
 
 This is a MiniJava to LLVM compiler written in Java. It performs semantic analysis on the given files and then translates them into intermediate code. MiniJava is a subset of Java, while LLVM IR can be compiled with clang.
 
-The purpose of this project aside from building the compiler itself, was familiarising myself with the visitor pattern. This way by writing the visitors that perform the type checking and compilation, allows the existing structure of JTB to remain intact.
+The purpose of this project aside from building the compiler itself, was familiarising myself with the visitor pattern. This way by writing visitors to perform the type checking and compilation, allows the existing structure of JTB to remain intact, while taking advantage of the functionality provided by its classes.
 
 ![dragonito](https://user-images.githubusercontent.com/73662635/179834648-aa32eda3-fdcf-48ca-a784-faaa960375ef.png)
 
