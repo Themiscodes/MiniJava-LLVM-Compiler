@@ -4,7 +4,7 @@ This is a MiniJava to LLVM compiler written in Java. It performs semantic analys
 
 The purpose of this project aside from building the compiler itself, was familiarizing myself with the visitor pattern. By writing visitors that perform the type checking and compilation, allows the existing structure of JTB to remain intact.
 
-
+![dragonito](https://user-images.githubusercontent.com/73662635/179834648-aa32eda3-fdcf-48ca-a784-faaa960375ef.png)
 
 ## Implementation
 
