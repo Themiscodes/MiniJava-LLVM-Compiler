@@ -80,4 +80,4 @@ $ make clean
 
 This project was an assignment for the [Compilers](https://cgi.di.uoa.gr/~compilers/) course of Spring 2022 taught by [Yannis Smaragdakis](https://yanniss.github.io).
 
-Further information on the LLVM language is documented in the [LLVM Reference Manual]([https://llvm.org/docs/LangRef](https://llvm.org/docs/LangRef.html#instruction-reference)). 
+Further information on the LLVM language is documented in the [LLVM Reference Manual](https://llvm.org/docs/LangRef.html#instruction-reference). 
